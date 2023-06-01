@@ -20,5 +20,6 @@ export const GreenStripe =()=>{
             <button onClick={()=>onHandleWrite()}>Write</button>
             <button onClick={()=>onHandleRead()}>Read</button>
         </div>
+        //comment
     )
 }
