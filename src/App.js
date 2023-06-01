@@ -8,8 +8,7 @@ import { BlueStripe } from './BlueStripe';
 import { RecoilRoot } from 'recoil';
 import { GreenStripe } from './GreenStripe';
 
-const queryClient = new QueryClient()
-
+export const queryClient = new QueryClient()
 function App() {
   return (
     <div>
@@ -26,4 +25,3 @@ function App() {
   );
 }
 
-export default App;
